@@ -11,3 +11,38 @@ aside {
     padding-right: 30px;
     grid-column: 4/5x; 
 }
+.menu {
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.menu>li {
+    float: left;
+}
+.menu li a {
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.menu li a:hover {
+    background-color: aqua;
+}
+.menu li ul {
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+.menu li:hover> ul {
+    display: block;
+}
+.menu li ul li {
+    position: relative;
+}
+.menu li il li ul {
+    right: 140px;
+}
