@@ -8,12 +8,14 @@ article{
 }
 aside {
     background-color: blanchedalmond;
-    padding-right: 30px;
+    padding-right: 35px;
     grid-column: 4/5x; 
 }
 .menu {
-    padding: 0px 20px;
-    text-align: center;
+    grid-column: 1/5;
+    padding-left: 20px;
+    padding-right: 8px;
+    text-align: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,14 +37,14 @@ aside {
     display: none;
     margin-right: auto;
     margin-left: auto;
-    position: absolute;
+    position: auto;
 }
 .menu li:hover> ul {
     display: block;
 }
 .menu li ul li {
-    position: relative;
+    position: auto;
 }
 .menu li il li ul {
-    right: 140px;
+    right: 40px;
 }
