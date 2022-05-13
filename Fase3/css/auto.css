@@ -1,14 +1,4 @@
-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-p{
-    grid-column: 3/4;
-}
-img {
-   padding: 30px 15px;
-}
-menu {
+.menu {
     padding-left: 20px;
     padding-right: 8px;
     text-align: auto;
