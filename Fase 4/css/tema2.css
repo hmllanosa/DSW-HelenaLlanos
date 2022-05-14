@@ -1,0 +1,13 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article
+{
+    grid-column: 1/4;
+}
+aside{
+    padding-right: 35px;
+    grid-column: 4/5x;
+}
+

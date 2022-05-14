@@ -1,0 +1,20 @@
+header {
+    background-color: aliceblue;
+    color:darkblue
+}
+body{
+    background-color: bisque;
+}
+section {
+    display:grid; 
+ grid-template-columns: 1fr  1fr 1fr 1fr;
+}
+article{
+    background-color: antiquewhite;
+    grid-column: 1/4;
+}
+aside {
+    background-color: blanchedalmond;
+    padding-right: 35px;
+    grid-column: 4/5x; 
+}
