@@ -1,12 +1,23 @@
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #c5e3f6;
 }
 article
 {
     grid-column: 1/4;
 }
+img{
+    grid-column: 1/4;
+}
 aside{
     padding-right: 35px;
     grid-column: 4/5x;
+}
+nav{
+    background-color: #fcefee;
+}
+header{
+    background-color: #fccde2;
+    color: #fc5c9c;
 }

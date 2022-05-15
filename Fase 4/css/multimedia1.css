@@ -1,17 +1,23 @@
-
 section {
     display:grid; 
  grid-template-columns: 1fr  1fr 1fr 1fr;
+ background-color: #e2f3f5;
 }
 article{
-    background-color: antiquewhite;
     grid-column: 1/4;
 }
 audio{
     grid-column: 1/4;
 }
 aside {
-    background-color: blanchedalmond;
     padding-right: 35px;
     grid-column: 4/5x; 
+}
+nav{
+    background-color: #c5e3f6;
+
+}
+header{
+    background-color: #cabbe9;
+    color: #a56cc1;
 }

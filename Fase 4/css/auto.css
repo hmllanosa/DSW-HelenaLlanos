@@ -11,3 +11,6 @@ aside {
     padding-right: 35px;
     grid-column: 4/5x; 
 }
+nav{
+     background-color: lavender;
+}
