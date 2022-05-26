@@ -17,3 +17,9 @@ aside {
     background-color: blanchedalmond;
         grid-column: 4/6x; 
 }
+h1{
+    margin: 430px;
+}
+h5{
+    margin: 480px;
+}

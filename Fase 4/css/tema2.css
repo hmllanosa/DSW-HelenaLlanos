@@ -6,6 +6,7 @@ section {
 article
 {
     grid-column: 1/4;
+    margin: 20px;
 }
 img{
     grid-column: 1/4;
@@ -20,4 +21,10 @@ nav{
 header{
     background-color: #fccde2;
     color: #fc5c9c;
+}
+h1{
+    margin: 430px;
+}
+h5{
+    margin: 480px;
 }

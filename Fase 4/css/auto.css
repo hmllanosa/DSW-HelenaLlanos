@@ -4,7 +4,7 @@ section {
 }
 article{
     background-color: antiquewhite;
-    grid-column: 1/4;
+    grid-column: 1/4; 
 }
 aside {
     background-color: blanchedalmond;
@@ -13,4 +13,14 @@ aside {
 }
 nav{
      background-color: lavender;
+}
+h3{
+    margin-left: 500px;
+    margin-top: 25px;
+}
+p {
+    margin: 200px;
+}
+img{
+    margin-left: 220px;
 }

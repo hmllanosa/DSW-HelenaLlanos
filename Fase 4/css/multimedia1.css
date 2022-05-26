@@ -5,6 +5,7 @@ section {
 }
 article{
     grid-column: 1/4;
+    margin: 18px;
 }
 audio{
     grid-column: 1/4;
@@ -20,4 +21,13 @@ nav{
 header{
     background-color: #cabbe9;
     color: #a56cc1;
+}
+h1{
+    margin: 430px;
+}
+h5{
+    margin: 480px;
+}
+img{
+    margin-left: 60px;
 }
